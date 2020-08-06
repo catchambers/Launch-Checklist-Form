@@ -68,6 +68,8 @@ window.addEventListener("load", function() {
 
             //Update Launch Status Text
             document.getElementById("launchStatus").innerHTML = "Shuttle ready for launch";
+
+            document.getElementById("faultyItems").style.visibility = "visible";
          };
       };
       event.preventDefault();
